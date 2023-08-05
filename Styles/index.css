@@ -1,0 +1,83 @@
+body {background-color: coral;}
+
+.bt{
+    display: inline-block;
+    background-color: rgb(255, 98, 0);
+    padding: 10px 40px;
+    border-radius: 0.3rem;
+    color: white;
+    font-size: 1rem;
+    text-decoration: none;
+    
+    cursor: pointer;
+    transition: all 0.3s ease-in;
+    border: none;
+    outline: none;
+    box-shadow: 0 0 10px rgba(255, 98, 0, 0.9);
+}
+
+.btoutline{
+    display: inline-block;
+    background-color: transparent;
+    padding: 10px 40px;
+    border-radius: 0.3rem;
+    color: rgb(255, 98, 0);
+    font-size: 1.2rem;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.3s ease-in;
+    border: 1px solid rgb(255, 98, 0);
+    outline: none;
+    box-shadow: 0 0 10px rgba(255, 98, 0, 0.9);
+}
+
+.btoutline:hover{
+    transform: translateY(-3px);
+    color: #000;
+    
+}
+
+.bt:hover{
+    transform: translateY(-3px);
+    color: #000;
+   
+}
+
+.txt{
+    color: rgb(255, 98, 0);
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    
+}
+
+.txt:hover{
+    color: rgb(255, 98, 0);
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-bottom: 2px solid rgb(255, 98, 0);
+}
+
+a{
+    font-family: 'Nunito', sans-serif;
+}
+
+a:hover{
+    color: rgb(255, 98, 0);
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-bottom: 2px solid rgb(255, 98, 0);
+}
+
+.fontH1{
+    font-family: 'Mate', serif;
+    font-size: 5rem;
+}
+
+p, h4{
+    font-family: 'Nunito', sans-serif;
+    font-size: 1.5rem;
+}
+
+.arrow{
+    font-size: 0.8rem;
+}
