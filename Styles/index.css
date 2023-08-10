@@ -1,4 +1,26 @@
-body {background-color: coral;}
+.fontTitle{
+    font-family: 'Mate', serif;
+}
+
+.fontParagraph{
+    font-family: 'Nunito', sans-serif;
+}
+
+.fontSizeCard{
+    font-size: 1rem;
+}
+
+.fontBig{
+    font-size: 4rem;
+}
+
+.fontMedium{
+    font-size: 2rem;
+}
+
+.fontSamll{
+    font-size: 1.2rem;
+}
 
 .bt{
     display: inline-block;
@@ -29,6 +51,27 @@ body {background-color: coral;}
     border: 1px solid rgb(255, 98, 0);
     outline: none;
     box-shadow: 0 0 10px rgba(255, 98, 0, 0.9);
+}
+
+.btnSuscribe{
+    display: inline-block;
+    background-color: rgb(212, 82, 1);
+    padding: 10px 40px;
+    border-radius: 0.3rem;
+    color: white;
+    font-size: 1rem;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.3s ease-in;
+    border: none;
+    outline: none;
+    box-shadow: 0 0 10px rgba(255, 98, 0, 0.9);
+
+}
+
+.btnSuscribe:hover{
+    transform: translateY(-3px);
+    color: #000;
 }
 
 .btoutline:hover{
@@ -75,9 +118,112 @@ a:hover{
 
 p, h4{
     font-family: 'Nunito', sans-serif;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 }
 
 .arrow{
     font-size: 0.8rem;
 }
+
+/* sections */
+.section2{
+    background-color: #f5f5f5;
+    margin: 2rem 0;
+    padding: 3rem 0;
+}
+
+.section5 {
+    background-color: #f5f5f5;
+    margin: 2rem 0;
+    padding: 3rem 0;
+}
+
+
+/* footer */
+
+.suscribe{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-break: brak-word;
+    color: #fff;
+    background-color: rgb(255, 98, 0) ;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,0.125);
+    border-radius: 0.25rem;
+
+}
+
+
+
+        .card1{
+            padding: 2% 7%;
+            color: #646771;
+            background-color: #f5f5f5;
+            border: none;
+        }
+        
+        ul{
+            list-style-type: none;
+            margin: -2rem;
+            padding: 0;
+        }
+        
+        ul >li{
+            padding: 4px;
+        }
+        
+        ul > li:hover{
+            color:rgb(255, 98, 0);
+            cursor: pointer;
+        }
+        
+        hr{
+            border-width: 3px;
+        }
+        
+        .social > i{
+            padding: 1%;
+            font-size: 15px;
+        }
+        
+        .social > i:hover{
+            color:rgb(255, 98, 0);
+            cursor:pointer;
+        }
+        
+        .policy > div{
+            padding: 4px;
+        }
+        
+        .heading{
+            font-family: 'Mate', serif;
+            color: #000;
+        }
+        
+        .divider{
+            border-top: 2px solid rgba(189, 196, 203, 0.5);;
+        }
+
+ /* buttons rounded */
+        .block ul {
+            padding: 0;
+            margin: 0; }
+            .block ul li {
+              display: inline-block;
+              margin-bottom: 4px;
+              font-weight: 400; }
+              .block ul li a, .block ul li span {
+                color: rgb(0, 0, 0);
+                text-align: center;
+                display: inline-block;
+                width: 40px;
+                height: 40px;
+                line-height: 40px;
+                border-radius: 50%;
+                border: 1px solid #e6e6e6; }
+              .block ul li.active a, .block ul li.active span {
+                background: rgb(255, 98, 0);
+                color: #fff;
+                border: 1px solid transparent; }
